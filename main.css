@@ -65,26 +65,40 @@ table.bar-chart {
 	padding: 1px 5px;	
 }
 
+/* Lightbox Problem - Commented out for rest of problems
 .lightbox-container {
+	position: fixed;
+	background-color: rgba(0,0,0,.6);
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.lightbox-background {
 	position: relative;
-	background-color: gray;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 10px;
+	width: 500px;
 }
 
-.lightbox-container .lightbox-background .lightbox div {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 70%;
-	background-color: blue;
+.lightbox {
+	position: relative;
+	margin: 25% auto;
+	padding: 15px;
 }
 
-a.button {
+.button a {
 	display: inline-block;
 	width: 100px;
 	height: 30px;
+	position: relative;
+	left: 75%;
 	background-color: #E5777E;
 	border-radius: 5px;
 	text-align: center;
 	line-height: 30px;
 	color: #eee;
 }
+*/
+
