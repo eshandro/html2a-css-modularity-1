@@ -18,3 +18,23 @@
 .data-list tr:last-child {
 	border-bottom: none;
 }
+
+.stats tr {
+	border-top: 2px solid #e2e2e2;
+	border-bottom: 2px solid #e2e2e2;
+}
+
+.stats td {
+	padding: 20px;
+	text-align: center;
+}
+
+.stats td div:first-child {
+	font-size: 2.2em;
+	font-weight: bold;
+}
+
+.stats td div:last-child {
+	font-size: .8em;
+	color: gray;
+}
