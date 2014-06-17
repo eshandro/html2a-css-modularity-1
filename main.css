@@ -102,3 +102,15 @@ table.bar-chart {
 }
 */
 
+.float-left {
+	float: left;
+	padding: 0 10px;
+
+}
+.float-right {
+	float: right;
+}
+
+.move-right {
+	margin-left: 75px;
+}
